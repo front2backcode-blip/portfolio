@@ -1,0 +1,342 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"te",
+				"text-shadow"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"b",
+				"br"
+			],
+			[
+				"bol",
+				"bolder"
+			],
+			[
+				"s",
+				"solid"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"fl",
+				"flex-direction"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"flex",
+				"flex-direction"
+			],
+			[
+				"fle",
+				"flex-wrap"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"ov",
+				"overflow-y"
+			],
+			[
+				"no",
+				"normal"
+			],
+			[
+				"conta",
+				"Contact"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"di",
+				"div"
+			],
+			[
+				"bl",
+				"blue"
+			],
+			[
+				"gr",
+				"gray"
+			],
+			[
+				"gree",
+				"greenyellow"
+			],
+			[
+				"re",
+				"red"
+			],
+			[
+				"padding-",
+				"padding-top"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/rajput/Downloads/usra_portfolio_v2/index.html",
+		"/C/xampp/htdocs/stock-management/admin_home.php",
+		"/C/Users/rajput/Downloads/usra_portfolio_v2/css/style1.css",
+		"/D/urfazkah/usra portfolio/coffee_website/about.html",
+		"/D/urfazkah/usra portfolio/coffee_website/index.html",
+		"/C/Users/rajput/Downloads/usra_portfolio_v2/aboutme.html",
+		"/C/xampp/htdocs/stock-management/config/config.php",
+		"/C/xampp/htdocs/stock-management/index.php",
+		"/C/xampp/htdocs/quizmanagementsystem/dash.php",
+		"/C/xampp/htdocs/quizmanagementsystem/homestaff.php",
+		"/C/xampp/htdocs/quizmanagementsystem/ViewStudents.php",
+		"/C/xampp/htdocs/quizmanagementsystem/profile.php",
+		"/C/xampp/htdocs/quizmanagementsystem/viewq.php",
+		"/C/xampp/htdocs/quizmanagementsystem/score.php",
+		"/C/xampp/htdocs/quizmanagementsystem/ViewStaff.php",
+		"/C/xampp/htdocs/quizmanagementsystem/setting.php",
+		"/C/xampp/htdocs/quizmanagementsystem/sql.php",
+		"/C/xampp/htdocs/stock-management/db.php",
+		"/C/Users/rajput/Desktop/sidebar.html",
+		"/C/xampp/htdocs/studentmanagementpractice/class.php",
+		"/C/xampp/htdocs/studentmanagementpractice/student.php",
+		"/C/xampp/htdocs/studentmanagementpractice/staff.php",
+		"/C/xampp/htdocs/studentmanagementpractice/dashboard.php",
+		"/C/xampp/htdocs/studentmanagementpractice/Courses.php",
+		"/C/xampp/htdocs/usra portfolio/index.php",
+		"/C/Users/rajput/Downloads/quiz_system/db.php",
+		"/C/xampp/htdocs/studentmanagementpractice/attendance.php",
+		"/C/xampp/htdocs/studentmanagementpractice/navbar.php",
+		"/C/xampp/htdocs/Quiz2H/score.php",
+		"/C/Users/rajput/Downloads/quiz_system/database.sql",
+		"/C/Users/rajput/Downloads/quiz_system/index.php",
+		"/C/Users/rajput/Downloads/schoolsystem.sql",
+		"/C/Users/rajput/Downloads/attendance.php",
+		"/C/Users/rajput/Downloads/attendance_system_usra/db.php",
+		"/C/xampp/htdocs/Quiz2H/addqs.php",
+		"/C/xampp/htdocs/Quiz2H2/viewq.php",
+		"/C/xampp/htdocs/Quiz2H/viewq.php",
+		"/C/xampp/htdocs/Quiz2H2/takeq.php",
+		"/C/xampp/htdocs/Quiz2H/takeq.php",
+		"/C/Users/rajput/Desktop/Quiz2H/Quiz2H/homestaff.php",
+		"/C/Users/rajput/Desktop/Quiz2H/Quiz2H/takeq.php",
+		"/C/xampp/htdocs/studentmanagementpractice/add_attendance.php",
+		"/C/Users/rajput/Downloads/attendance_system/config.php",
+		"/C/xampp/htdocs/studentmanagementpractice/db.php",
+		"/C/Users/rajput/Downloads/attendance_system/delete_attendance.php",
+		"/C/xampp/htdocs/Quiz2H/homestaff.php",
+		"/C/xampp/htdocs/Quiz2H/sql.php",
+		"/C/xampp/htdocs/Quiz2H/ViewStudents.php",
+		"/C/Users/rajput/Desktop/navbar.html",
+		"/C/xampp/htdocs/Quiz2H/navbar.php",
+		"/C/xampp/htdocs/Quiz2H/homestud.php",
+		"/C/xampp/htdocs/Quiz2H/addq.php",
+		"/C/xampp/htdocs/Quiz2H/start_quiz.php",
+		"/C/xampp/htdocs/Quiz2H_fixed_77fd27bc/takeq.php",
+		"/C/xampp/htdocs/Quiz2H_fixed_77fd27bc/homestaff.php",
+		"/C/xampp/htdocs/Quiz2H/index.php",
+		"/C/Users/rajput/AppData/Local/Temp/Temp1_Quiz2H.zip/Quiz2H/homestaff.php",
+		"/C/Users/rajput/AppData/Local/Temp/Temp1_Quiz2H.zip/Quiz2H/SQL Files/project.sql",
+		"/D/newdatawindow/schoolsystem (2).sql",
+		"/D/newdatawindow/student_system/dbcon.php",
+		"/C/xampp/htdocs/lastaccount_system/db.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "style1.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

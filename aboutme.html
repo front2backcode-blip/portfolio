@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>About Me</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:rgba(0, 0, 0, 0.1);display:flex;}
+
+/* SIDEBAR */
+.sidebar{width:260px;background:#f6b93b;min-height:100vh;position:fixed;left:0;top:0;}
+.sidebar .profile{text-align:center;background:gray;padding:25px 0;}
+.sidebar .profile img{width:200px;height:200px;border-radius:50%;border:5px solid white;}
+.sidebar-title {
+  width: 3px;            /* line ki width choti rakhi */
+  height: 20px;          /* line ki height vertical ke liye */
+  background: black;
+  position: relative;
+  margin-top:.5rem;      /* top margin adjust kar sakte ho */
+}
+
+.sidebar-title::after {
+  content: "";
+  width: 12px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;             /* line ke beech me align */
+  bottom: -6px;          /* dot line ke neeche */
+  transform: translateX(-50%);
+}
+.sidebar-title-top {
+  width: 3px;           /* vertical line ki width */
+  height: 20px;         /* line ki height */
+  background: black;
+  position: relative;
+  margin-top:2rem;     /* upar space for dot */
+}
+
+.sidebar-title-top::after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;            /* line ke beech me center */
+  top: -12px;            /* dot ko line ke upar */
+  transform: translateX(-50%);
+}
+
+.sidebar-title-continer{display: flex;justify-content: center;
+}
+/* Sidebar Heading Line + Circle */
+/*.sidebar-title{position:relative;padding-left:50px;margin:20px 0;font-size:18px;font-weight:700;}
+.sidebar-title::before{content:"";width:30px;height:3px;background:black;position:absolute;left:10px;top:50%;transform:translateY(-50%);} 
+.sidebar-title::after{content:"";width:10px;height:10px;background:black;border-radius:50%;position:absolute;left:40px;top:50%;transform:translateY(-50%);} */
+
+.menu{margin-top:5px;display:flex;flex-direction:column;gap:15px;padding:1rem 40px;text-align:center;justify-content:center;align-items:center ;}
+.menu a{text-decoration:none;color:black;font-size:17px;font-weight:600;position:relative;padding-left:13px;}
+.menu a i{margin-right:10px;}
+.menu a:hover{color:white;}
+
+/* Right Side Icons */
+.right-icons{position:fixed;right:20px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:20px;align-items:center;}
+.right-icons::before{content:"";width:3px;height:340px;background:black;position:absolute;right:15px;z-index:-1;}
+.right-icons i{ margin-top:8px;width:42px;height:42px;border-radius:50%;background:black;color:#f6b93b;display:flex;justify-content:center;align-items:center;font-size:18px;}
+.right-icons .act i{color:white;}
+
+/* Content */
+.content{margin-left:258px;padding:60px;width:100%;}
+
+/* ABOUT ME HEADING WITH LINE + CIRCLE */
+.heading-wrap{display:flex;align-items:center;gap:15px;}
+.heading-line{width:50px;height:3px;background:black;position:relative;margin-top: -2rem}
+.heading-line::after{content:"";width:12px;height:12px;background:black;border-radius:50%;position:absolute;right:-6px;top:50%;transform:translateY(-50%);} 
+.title{font-size:55px;font-weight:700;letter-spacing:1px;font-family: "Science Gothic", sans-serif;margin-top: -2rem;}
+
+.intro{margin-top:20px;font-size:27px;max-width:750px;color:black;}
+.intro1{margin-top: -1px;}
+.highlight{color:black;font-weight:bolder;font-size:32px;}
+
+.sections{display:flex;justify-content:center; margin-top:40px;color: black;}
+.left-box,.right-box{width:48%;}
+.box-title{padding:8px 20px;background:#f6b93b;display:inline-block;font-weight:700;border-radius:20px;margin-bottom:20px;}
+
+/* Services */
+/*.serviceboxes{margin-top:1rem ;}*/
+.service{display:flex;gap:20px;margin-bottom:20px;align-items:flex-start;}
+.service-circle{background: #f6b93b;color: black;font-size:35px;padding:1rem;border-radius:50%;}
+/*.service i{font-size:35px;color:#f6b93b;}*/
+.service p{font-size:15px;max-width:330px;color:black;}
+.viewmore{display: flex;justify-content: center;align-items: center;}
+.viewmore a{text-decoration: none;color: white;text-shadow: 1px 1px 0 black;padding:.5rem 1rem;border-radius: 20px;background:#696969;}
+/* FACT CIRCLES */
+.facts{display:flex;flex-wrap:wrap;gap:22px;}
+.fact-circle{background:black;color:white;width:135px;height:135px;border-radius:50%;display:flex;justify-content:center;align-items:center;flex-direction:column;text-align:center;font-size:15px;font-weight:600;padding:10px;line-height:20px;}
+.menu .active{
+    background: black;color: white;box-shadow: 1px 0 1px black;padding: .5rem 1rem;border-radius: 5px;
+    /*color: white;text-shadow: 1px 1px 0 black;*/
+}
+@media(max-width:1115px){.title{font-size:50px;}.intro{font-size:20px;}.intro1{width:30rem ;}.fact-circle{width:115px;height:115px;padding:5px;line-height:16px;font-size:12px;}.sections{gap:2rem;}}
+@media(max-width:1000px){.sections{flex-direction:column;}.left-box,.right-box{width:100%;}.content{margin-left:280px;padding:30px;}
+    .fact-circle{width:135px;height:135px;padding:5px;line-height:20px;font-size:15px;}}
+@media(max-width:929px){.title{margin-top:1rem;}.intro{font-size:15px;}.heading-line{margin-top:1rem;}.highlight{font-size:18px;}.intro1{width:28rem ;}.sidebar{width:200px;}.content{margin-left:220px;}.menu a{font-size:17px;} .menu .active{padding:.25rem .5rem;}.sidebar .profile{padding:20px 0;}.sidebar .profile img{width:150px;height:150px;}.menu{margin-top:1rem;gap:25px;padding:0;}}
+@media(max-width:790px){.fact-circle{width:115px;height:115px;padding:5px;line-height:16px;font-size:12px;}.intro{width:22rem;font-size:17px;}.intro1{width:25rem;}}
+@media(max-width:740px){.fact-circle{width:110px;height:110px;padding:5px;font-size:10px;}.service{width:19rem;}.title{font-size:30px;}}
+@media(max-width:715px){.content{margin-left:130px;padding:60 40px;width:100%;}
+  .sidebar{width:150px;}.menu a{font-size:14px;} .menu .active{padding:10px .5rem;}.sidebar .profile{padding:10px 0;}.sidebar .profile img{width:120px;height:120px;}.menu{margin-top:1rem;gap:35px;padding:0;}}
+}
+
+@media(max-width:650px){.sidebar{width:200px;}.content{margin-left:220px;}}
+@media(max-width:610px){body{flex-direction:column;}.sidebar{position:relative;width:100%;min-height:0;}.content{margin-left:0;}.right-icons{top:71%;}.fact-circle{background:black;color:white;width:135px;height:135px;border-radius:50%;display:flex;justify-content:center;align-items:center;flex-direction:column;text-align:center;font-size:15px;font-weight:600;padding:10px;line-height:20px;}.sidebar-title-top{display:none;}.sidebar-title{display:none;}.menu{margin-top:5px;display:flex;flex-direction:row;gap:10px;padding:1rem 40px;text-align:center;justify-content:center;align-items:center;flex-wrap:wrap;}}
+@media(max-width:450px){.intro{width:19rem;font-size:17px;}.intro1{width:20rem;}}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+    <div class="profile">
+       <img src="assets/usra.png">
+    </div>
+    
+    <div class="sidebar-title-continer">
+    <div class="sidebar-title-top"></div>
+    </div>
+
+    <div class="menu">
+        <a href="index.html"><i class="fa fa-home"></i> Home</a>
+        <a href="aboutme.html" class="active"><i class="fa fa-user"></i> About</a>
+        <a href="resume.html"><i class="fa fa-file"></i> Resume</a>
+        <a href="service.html"><i class="fa fa-briefcase"></i>Services</a>
+        <a href="skill.html"><i class="fas fa-code"></i>Skill</a>
+        <!-- <a href="contant.html"><i class="fa fa-phone"></i> Contant</a> -->
+    </div>
+
+     <div class="sidebar-title-continer">
+    <div class="sidebar-title"></div>
+    </div>
+</div>
+
+ <!-- <div class="sidebar-title-top"></div> -->
+<div class="right-icons">
+    <a href="index.html"><i class="fa fa-home"></i></a>
+    <a href="aboutme.html" class="act"><i class="fa fa-user"></i></a>
+    <a href="projects.html"><i class="fa fa-file"></i></a>
+    <a href="service.html"><i class="fa fa-briefcase"></i></a>
+   <a href="skill.html"><i class="fas fa-code"></i></a>
+   <!-- <a href="contant.html"><i class="fa fa-phone"></i> </a> -->
+</div>
+
+<div class="content">
+    <div class="heading-wrap">
+        <div class="heading-line"></div>
+        <h1 class="title">ABOUT ME</h1>
+    </div>
+
+    <p class="intro">I'm <span class="highlight">Usra</span>, a professional Frontend & Backend Web Developer.</p>
+    <p class="intro1"> I create modern, responsive, fast and visually clean websites with complete functionality.</p>
+
+    <div class="sections">
+
+        <div class="left-box">
+            <div class="box-title">What I Do?</div>
+
+            <div class="serviceboxes">
+            <div class="service">
+                <div class="service-circle">
+                <i class="fa fa-code"></i>
+                </div>
+                <p><b>Frontend Development</b><br> Clean, responsive UI/UX, animations, layouts and professional designs.</p>
+            </div>
+
+            <div class="service">
+                <div class="service-circle">
+                <i class="fa fa-server"></i>
+            </div>
+                <p><b>Backend Development</b><br> Secure login systems, admin dashboards, database handling and full logic.</p>
+            </div>
+
+            <div class="service">
+                <div class="service-circle">
+                <i class="fa fa-laptop-code"></i>
+            </div>
+                <p><b>Full Website Creation</b><br> Complete, professional, responsive websites with full functionality.</p>
+            </div>
+
+            <div class="viewmore">
+            <a href="service.html"><i class="fa fa-arrow-right"></i>  VIEW MORE</a>
+            </div>
+
+            </div>
+        </div>
+
+        <div class="right-box">
+            <div class="box-title">Fun Facts</div>
+
+            <div class="facts">
+                <div class="fact-circle">4+ Years<br> Experience</div>
+                <div class="fact-circle">100+<br> Projects</div>
+                <div class="fact-circle">300+<br> Clients</div>
+                <div class="fact-circle">Unlimited<br> Revisions</div>
+                <div class="fact-circle">95%<br> Client Satisfaction</div>
+                <div class="fact-circle">10+<br> New Projects Monthly</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
